@@ -1,0 +1,11 @@
+<%-include('head') -%>
+<main role="main" class="inner cover">
+    <h1 class="cover-heading">Write Something Here !</h1>
+    <form action="/write" method="POST">
+        <input name="judul" class="form-control" type="text" placeholder="Judul"><br>
+        <textarea name="isi" class="form-control"id="txt" rows="10" cols="60" placeholder="Isi Post"></textarea><br><br>
+        <button class="btn btn-primary" type="submit">Post</button>
+      </form>
+  </main>
+
+<%-include('foot') -%>
