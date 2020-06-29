@@ -7,5 +7,8 @@ Simple Blogging Website Using Express.js, EJS, and MongoDB in the Backend, and s
 - Basic Nav bar template so it shows nothing 
 - Write New template by adding /write to route
 <br>
+![alt text](https://ibb.co/KyDsHXZ)
+![alt text](https://ibb.co/6YGx6Nz)
+![alt text](https://ibb.co/tJVqtbj)
 <br>
 The main purpose of the project is to implement basic server-side scripting concept using Express, EJS as a templating engine, and MongoDB (Mongoose) as a database to create basic blogging website. 
