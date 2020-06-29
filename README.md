@@ -10,6 +10,6 @@ Simple Blogging Website Using Express.js, EJS, and MongoDB in the Backend, and s
 ![alt text](https://ibb.co/KyDsHXZ)<br>
 ![alt text](https://ibb.co/6YGx6Nz)<br>
 ![alt text](https://ibb.co/tJVqtbj)<br>
-![Screenshot](docs/main1.png)
+![](docs/main1.png) <br>
 <br>
 The main purpose of the project is to implement basic server-side scripting concept using Express, EJS as a templating engine, and MongoDB (Mongoose) as a database to create basic blogging website. 
