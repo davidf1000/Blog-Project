@@ -85,6 +85,10 @@ body {
   }
 }
 
+.textalign
+{
+  text-align: justify;
+}
 
 /*
  * Cover

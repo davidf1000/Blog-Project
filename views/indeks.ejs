@@ -1,17 +1,18 @@
 <%-include('head') -%>
   <main role="main" class="inner cover">
     <h1 class="cover-heading">This is My Blog.</h1>
+    <br>
+    <br>
     <p class="lead">
     <% for(var i=0;i<data.length;i++) { %>
       <!-- Title -->
       <h2><%=(i+1)%>. <%=data[i].title%></h2>
       <!-- Content -->
-      <p>
-    <% for(var j=0;j<30;j++) {%> 
-      <%=data[i].main[j]%>
-      <% } %> 
+      <p class="textalign">
+    <%= data[i].main.substring(0,150) %> 
     <a href=<%="/post/"+data[i].title%> style="color:lightblue;">read me!</a>
   </p>
+  <br>
     <%} %>
     </p>
   </main>
